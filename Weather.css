@@ -30,7 +30,12 @@ footer {
       color: rgb(160, 110, 110);
       padding: 15px;
 }
-    
+h2{
+    color: #ebeff1;
+    font-family: "Trebuchet MS",Helvetica,Arial,'Helvetica Neue';
+    font-size: 30px;
+
+    }   
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
       .sidenav {
@@ -45,7 +50,7 @@ div.c-wrapper{
 }
 
 .colbg{
-background-color: #337ab7a1;
+background-color: #0157a5b5;
 }
 
 .weatherbg{

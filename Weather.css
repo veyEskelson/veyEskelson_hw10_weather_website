@@ -1,0 +1,117 @@
+/* CSS Document */
+.auto-style1 {
+	position: relative;
+	min-height: 1px;
+	float: left;
+	width: 33.33333333%;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+}
+    
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+      padding-top: 20px;
+      background-color: #8cb6ca;
+      height: 100%;
+}
+    
+/* Set black background color, white text and some padding */
+footer {
+      background-color: #555;
+      color: rgb(160, 110, 110);
+      padding: 15px;
+}
+    
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;} 
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+}
+.backg{
+background-color: #d31313;
+}
+.colbg{
+background-color: #428fce;
+}
+
+.weatherbg{
+ background: #6c95b3 url("cityBackground2.png")no-repeat;
+}
+.weatherpad{
+ padding-top: 15px; 
+ }
+
+.weatherpadleft{
+ padding-top: 15px;
+ padding-right:15px;
+ padding-left:0px;
+ padding-bottom:15px;
+ 
+ }
+ .weatherpadright{
+ padding-top: 15px;
+ padding-right:0px;
+ padding-left:15px;
+ padding-bottom:0px;
+ 
+ }
+
+ul.rta-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+li.rta-menu {
+    float: left;
+}
+
+li.rta-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 12px;
+    text-decoration: none;
+}
+
+li.rta-menu a:hover:not(.active) {
+    background-color: #ff6600
+}
+
+.active {
+    background-color: #ff6600;
+}
+.marq-rta{
+background-color: #4782B8 !important;
+}
+.marq2-rta{
+background-color: #4782b8 !important;
+padding-right -10px;
+
+padding-left -10px;
+margin-left -10px;
+}
+.datafield{
+background-color: #ccffff !important;
+}
+.alt-grid [class*="col-"] {padding-left:0;padding-right:0}
+.alt-grid .row {margin-left:0;margin-right:0}

@@ -43,15 +43,13 @@ div.c-wrapper{
     margin: auto;
 }
 }
-.backg{
-background-color: #d31313;
-}
+
 .colbg{
-background-color: #428fce;
+background-color: #337ab7a1;
 }
 
 .weatherbg{
- background: #6c95b3 url("cityBackground2.png")no-repeat;
+ background: #c0dbee url("cityBackground2.png")no-repeat;
 }
 .weatherpad{
  padding-top: 15px; 
